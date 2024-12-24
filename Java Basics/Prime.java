@@ -1,3 +1,4 @@
+//classifying a number as prime or not
 import java.util.Scanner;
 
 class Prime{
