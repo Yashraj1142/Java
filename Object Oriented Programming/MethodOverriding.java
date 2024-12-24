@@ -1,10 +1,10 @@
-class Vehicle{
+class Vehicle2{
     String colour(){
         return "BLUE";
     }
 }
 
-class Car extends Vehicle{
+class Car extends Vehicle2{
     String colour(){
         return "YELLOW";
     }

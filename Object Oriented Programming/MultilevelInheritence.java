@@ -4,13 +4,13 @@ class Vehicle{
     }
 }
 
-class Car extends Vehicle{
+class Car2 extends Vehicle{
     void fourWheeler(){
         System.out.println("Car has four wheels.");
     }
 }
 
-class Hyundai extends Car{
+class Hyundai extends Car2{
     void brand(){
         System.out.println("Hyundai is best.");
     }

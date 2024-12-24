@@ -1,8 +1,8 @@
-class Vehicle{
+class Vehicle4{
     String colour = "Red";
 }
 
-class Car extends Vehicle{
+class Car extends Vehicle4{
     String colour = "Blue";
 
     void showColour(){

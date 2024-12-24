@@ -1,10 +1,10 @@
-class Vehicle{
+class Vehicle3{
     void move(){
         System.out.println("Moving.....");
     }
 }
 
-class Car extends Vehicle{
+class Car extends Vehicle3{
     void fourWheeler(){
         System.out.println("Car has four wheels.");
     }
