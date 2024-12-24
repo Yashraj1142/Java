@@ -1,4 +1,4 @@
-//print all the primes between two given numbers
+//print all the prime numbers between two given numbers
 import java.util.Scanner;
 
 public class AllPrimes {
