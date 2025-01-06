@@ -1,8 +1,8 @@
-class Example{
+class Example2{
     final int i;
     static final int j;
 
-    Example(){      //constructor
+    Example2(){      //constructor
         i=20;
     }
 
@@ -13,7 +13,7 @@ class Example{
 
 public class BlankFinal {
     public static void main(String args[]){
-        Example e1 = new Example();
+        Example2 e1 = new Example2();
 
         System.out.println("i = " + e1.i);
         System.out.println("j = " + e1.j);

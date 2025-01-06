@@ -4,7 +4,7 @@ class Vehicle3{
     }
 }
 
-class Car extends Vehicle3{
+class Car2 extends Vehicle3{
     void fourWheeler(){
         System.out.println("Car has four wheels.");
     }
@@ -12,7 +12,7 @@ class Car extends Vehicle3{
 
 public class SingleInheritence {
     public static void main(String args[]){
-        Car c1 = new Car();
+        Car2 c1 = new Car2();
 
         c1.fourWheeler();
         c1.move();

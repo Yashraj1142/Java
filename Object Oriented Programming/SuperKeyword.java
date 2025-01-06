@@ -2,7 +2,7 @@ class Vehicle4{
     String colour = "Red";
 }
 
-class Car extends Vehicle4{
+class Car3 extends Vehicle4{
     String colour = "Blue";
 
     void showColour(){
@@ -13,7 +13,7 @@ class Car extends Vehicle4{
 
 public class SuperKeyword {
     public static void main(String args[]){
-        Car c1 = new Car();
+        Car3 c1 = new Car3();
 
     c1.showColour();
     }

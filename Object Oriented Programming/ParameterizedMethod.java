@@ -1,4 +1,4 @@
-class Circle{
+class Circle2{
     double radius;
     double pi = 3.14;
 
@@ -13,7 +13,7 @@ class Circle{
 
 public class ParameterizedMethod {
     public static void main(String args[]){
-        Circle c1 = new Circle();
+        Circle2 c1 = new Circle2();
 
         c1.setValue(10);
 

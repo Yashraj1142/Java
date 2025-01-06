@@ -9,7 +9,7 @@ class Example{
 public class AccessModifier {
     public static void main(String args[]){
         Example e1 = new Example();
-
+        
         System.out.println("Marks: " + e1.marks);   //This will give error
         System.out.println("Marks: " + e1.showMarks());   //This will give error
     }
